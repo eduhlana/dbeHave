@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: dbHave.Angular.MyTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 46.172 sec <<< FAILURE! - in dbHave.Angular.MyTest
-testAllStories(dbHave.Angular.MyTest)  Time elapsed: 46.125 sec  <<< FAILURE!
-java.lang.AssertionError: Passo com falha: [Dado que vou para a tela "dbehave"] causa: Dado que vou para a tela "dbehave"
-	at org.junit.Assert.fail(Assert.java:91)
-	at br.gov.frameworkdemoiselle.behave.controller.BehaveContext.run(BehaveContext.java:158)
-	at br.gov.frameworkdemoiselle.behave.controller.BehaveContext.run(BehaveContext.java:180)
-	at dbHave.Angular.MyTest.testAllStories(MyTest.java:17)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.146 sec - in dbHave.Angular.MyTest

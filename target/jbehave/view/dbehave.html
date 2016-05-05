@@ -13,34 +13,26 @@
 
 <body>
 <div class="story">
-<h1>Funcionalidade: Acesso ao Projeto Demoiselle Behave</h1>
+<h1>Funcionalidade: Acesso ao Neo Avanco</h1>
 <div class="path">stories\dbehave.storyConverted</div>
 <div class="narrative"><h2>Narrativa:</h2>
-<div class="element inOrderTo"><span class="keyword inOrderTo">Para obter</span> informa&ccedil;&otilde;es sobre o projeto Demoiselle Behave</div>
-<div class="element asA"><span class="keyword asA">Como um</span> visistante</div>
-<div class="element iWantTo"><span class="keyword iWantTo">Desejo</span> ter acesso a documenta&ccedil;&atilde;o, f&oacute;rum e demais informa&ccedil;&otilde;es sobre o projeto</div>
+<div class="element inOrderTo"><span class="keyword inOrderTo">Para obter</span> acessar o Neo Avan&ccedil;o</div>
+<div class="element asA"><span class="keyword asA">Como um</span> Cliente</div>
+<div class="element iWantTo"><span class="keyword iWantTo">Desejo</span> ter acesso a todos os m&oacute;dulos do sistema</div>
 </div>
 <div class="scenario">
-<h2>Cen&aacute;rio: Site do DBehave</h2>
-<div class="step failed">Dado que vou para a tela &quot;dbehave&quot; <span class="keyword failed">(FALHO)</span><br/><span class="message failed">br.gov.frameworkdemoiselle.behave.exception.BehaveException: Erro ao tentar navegar para [http://dbehave.com]</span><br/><img src="screenshots/failed-scenario-7d763a68-2496-4f41-97d9-1bd60b1e876b.png" alt="failing screenshot"/><br/><a href="screenshots/failed-scenario-7d763a68-2496-4f41-97d9-1bd60b1e876b.png.html" alt="failing screenshot html" target="_blank">View Html</a></div>
-<div class="step notPerformed">Ent&atilde;o ser&aacute; exibido &quot;dbehave - projeto mantido pelo SERPRO&quot; <span class="keyword notPerformed">(N&Atilde;O EXECUTADO)</span></div>
-</div>
-<div class="scenario">
-<h2>Cen&aacute;rio: Lendo d&uacute;vidas</h2>
-<div class="step successful">Dado que vou para a tela &quot;Github&quot;</div>
-<div class="step successful">Ent&atilde;o ser&aacute; exibido &quot;Demoiselle Behave&quot;</div>
-<div class="step successful">Ent&atilde;o ser&aacute; exibido &quot;http://dbehave.com&quot;</div>
-<div class="step successful">Quando clico em &quot;D&uacute;vidas e Quest&otilde;es&quot;</div>
-<div class="step successful">Ent&atilde;o ser&aacute; exibido &quot;New issue&quot;</div>
-</div>
-<div class="scenario">
-<h2>Cen&aacute;rio: Procurando documenta&ccedil;&atilde;o</h2>
-<div class="step successful">Dado que vou para a tela &quot;Documenta&ccedil;&atilde;o&quot;</div>
-<div class="step successful">Quando clico em &quot;Roteiro R&aacute;pido&quot;</div>
-<div class="step successful">Ent&atilde;o ser&aacute; exibido &quot;um roteiro r&aacute;pido para cria&ccedil;&atilde;o e configura&ccedil;&atilde;o de um projeto com uso do framework Demoiselle Behave&quot;</div>
-<div class="step successful">Quando clico em &quot;Link Principal&quot;</div>
-<div class="step successful">E clico em &quot;Testes de Regress&atilde;o&quot;</div>
-<div class="step successful">Ent&atilde;o ser&aacute; exibido &quot;a funcionalidade que permite a compara&ccedil;&atilde;o de layout entre navegadores diferentes&quot;</div>
+<h2>Cen&aacute;rio: pagina de Login</h2>
+<div class="step failed">Dado que vou para a tela &quot;Login&quot; <span class="keyword failed">(FALHO)</span><br/><span class="message failed">br.gov.frameworkdemoiselle.behave.exception.BehaveException: Erro ao tentar navegar para [http://localhost:3000/#/login]</span><br/><img src="screenshots/failed-scenario-b3a8b51d-78c3-477e-974d-c6692bb875fb.png" alt="failing screenshot"/><br/><a href="screenshots/failed-scenario-b3a8b51d-78c3-477e-974d-c6692bb875fb.png.html" alt="failing screenshot html" target="_blank">View Html</a></div>
+<div class="step notPerformed">Quando informo &quot;admin@admin.com&quot; no campo &quot;Usuario&quot; <span class="keyword notPerformed">(N&Atilde;O EXECUTADO)</span></div>
+<div class="step notPerformed">Quando informo &quot;123456&quot; no campo &quot;Senha&quot; <span class="keyword notPerformed">(N&Atilde;O EXECUTADO)</span></div>
+<div class="step pending">Quando clico em Entrar
+Entao sera exibida a &quot;TelaPrincipal&quot; <span class="keyword pending">(PENDENTE)</span></div>
+<div><pre class="pending">@When(&quot;clico em Entrar\nEntao sera exibida a \&quot;TelaPrincipal\&quot;&quot;)
+@Pending
+public void whenClicoEmEntrarEntaoSeraExibidaATelaPrincipal() {
+  // PENDENTE
+}
+</pre></div>
 </div>
 </div>
 

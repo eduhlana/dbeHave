@@ -3,35 +3,31 @@ package dbHave.Angular;
 import br.gov.frameworkdemoiselle.behave.annotation.ElementLocatorType;
 import br.gov.frameworkdemoiselle.behave.annotation.ElementMap;
 import br.gov.frameworkdemoiselle.behave.annotation.ScreenMap;
-import br.gov.frameworkdemoiselle.behave.runner.ui.Link;
+import br.gov.frameworkdemoiselle.behave.runner.ui.TextField;
+import br.gov.frameworkdemoiselle.behave.runner.ui.Button;
 
 public class MyPages {
 
-	@ScreenMap(name = "dbehave", location = "http://dbehave.com")
-	public class DBheave {
+	@ScreenMap(name = "Neo", location = "http://localhost:3000")
+	public class Neo {
 	}
 
-	@ScreenMap(name = "Github", location = "https://github.com/demoiselle/behave")
-	public class Main {
+	@ScreenMap(name = "Login", location = "http://localhost:3000/#/login")
+	public class Login {
 
-		@ElementMap(name = "Dúvidas e Questões", locatorType = ElementLocatorType.XPath, locator = "//a//span[./text()='Issues']")
-		private Link linkIssues;
+		@ElementMap(name = "Usuario", locatorType = ElementLocatorType.Name, locator = "email")
+		private TextField email;
 
-		@ElementMap(name = "uma dúvida", locatorType = ElementLocatorType.XPath, locator = "(//a[contains(@class, 'issue-title')])[2]")
-		private Link linkIssue;
+		@ElementMap(name = "Senha", locatorType = ElementLocatorType.Id, locator = "input_1")
+		private TextField Senha;
+		
+		@ElementMap(name = "Entrar", locatorType = ElementLocatorType.ClassName, locator = "entrar md-button md-ink-ripple")
+		private Button Entrar;
+	}
+	@ScreenMap(name = "TelaPrincipal", location = "http://localhost:3000/#/app")
+	public class TelaPrincipal {
 	}
 
-	@ScreenMap(name = "Documentação", location = "http://demoiselle.sourceforge.net/docs/components/behave/reference/lastversion/html/index.html")
-	public class Popup {
 
-		@ElementMap(name = "Roteiro Rápido", locatorType = ElementLocatorType.XPath, locator = "//a[contains(./text(),'Roteiro Rápido')]")
-		private Link linkRR;
-
-		@ElementMap(name = "Link Principal", locatorType = ElementLocatorType.XPath, locator = "//a//strong[contains(./text(),'Principal')]")
-		private Link linkP;
-
-		@ElementMap(name = "Testes de Regressão", locatorType = ElementLocatorType.XPath, locator = "//a[contains(./text(),'Testes de Regressão')]")
-		private Link lintTR;
-	}
 
 }

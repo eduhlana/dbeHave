@@ -1,27 +1,15 @@
-Funcionalidade: Acesso ao Projeto Demoiselle Behave
+Funcionalidade: Acesso ao Neo Avanco
 
 Narrativa:
-Para obter informações sobre o projeto Demoiselle Behave
-Como um visistante
-Desejo ter acesso a documentação, fórum e demais informações sobre o projeto
+Para obter acessar o Neo Avanço
+Como um Cliente
+Desejo ter acesso a todos os módulos do sistema
 
-Cenário: Site do DBehave
-Dado que vou para a tela "dbehave"
-Então será exibido "dbehave - projeto mantido pelo SERPRO"
-
-Cenário: Lendo dúvidas
-Dado que vou para a tela "Github"
-Então será exibido "Demoiselle Behave"
-Então será exibido "http://dbehave.com"
-
-Quando clico em "Dúvidas e Questões"
-Então será exibido "New issue"
+Cenário: pagina de Login
+Dado que vou para a tela "Login"
+Quando informo "admin@admin.com" no campo "Usuario"
+Quando informo "123456" no campo "Senha"
+Quando clico em Entrar
+Entao sera exibida a "TelaPrincipal"
 
 
-Cenário: Procurando documentação
-Dado que vou para a tela "Documentação"
-Quando clico em "Roteiro Rápido"
-Então será exibido "um roteiro rápido para criação e configuração de um projeto com uso do framework Demoiselle Behave"
-Quando clico em "Link Principal"
-E clico em "Testes de Regressão"
-Então será exibido "a funcionalidade que permite a comparação de layout entre navegadores diferentes"

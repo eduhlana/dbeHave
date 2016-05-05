@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dbHave.Angular.MyTest" time="46.125" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="dbHave.Angular.MyTest" time="16.139" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
@@ -62,74 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="testAllStories" classname="dbHave.Angular.MyTest" time="46.125">
-    <failure message="Passo com falha: [Dado que vou para a tela &quot;dbehave&quot;] causa: Dado que vou para a tela &quot;dbehave&quot;" type="java.lang.AssertionError">java.lang.AssertionError: Passo com falha: [Dado que vou para a tela "dbehave"] causa: Dado que vou para a tela "dbehave"
-	at org.junit.Assert.fail(Assert.java:91)
-	at br.gov.frameworkdemoiselle.behave.controller.BehaveContext.run(BehaveContext.java:158)
-	at br.gov.frameworkdemoiselle.behave.controller.BehaveContext.run(BehaveContext.java:180)
-	at dbHave.Angular.MyTest.testAllStories(MyTest.java:17)
-</failure>
-    <system-out>13:34:57,775 INFO  (main) [BehaveContext]: --------------------------------
-13:34:57,790 INFO  (main) [BehaveContext]: Demoiselle Behave Iniciado
-13:34:57,790 INFO  (main) [BehaveContext]: Demoiselle Behave 1.5.1 em: 12/08/2015 10:15
-13:34:57,790 INFO  (main) [BehaveContext]: --------------------------------
-13:34:57,822 INFO  (main) [JBehaveParser]: Configurando Parser JBehave...
-13:34:57,868 INFO  (main) [JBehaveParser]: Iniciando Parser JBehave...
-13:34:57,868 INFO  (main) [JBehaveParser]: Executando história: [[stories\dbehave.storyConverted]]
-Processing system properties {}
-Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=true,ignoreFailureInView=true,verboseFailures=true,verboseFiltering=false,storyTimeouts=21600,threads=1,failOnStoryTimeout=false]
-
-(BeforeStories)
-13:34:58,524 INFO  (main) [BeforeAfterSteps]: 
-
-
-13:34:58,524 INFO  (main) [BeforeAfterSteps]: &gt;&gt;Iniciando Aplicação&lt;&lt;
-
-Running story stories\dbehave.storyConverted
-Funcionalidade: Acesso ao Projeto Demoiselle Behave
-(stories\dbehave.storyConverted)
-Narrative:
-In order to informações sobre o projeto Demoiselle Behave
-As a visistante
-I want to ter acesso a documentação, fórum e demais informações sobre o projeto
-Scenario: Site do DBehave
-Using timeout for story dbehave.storyConverted of 21600 secs.
-Dado que vou para a tela "dbehave" (FAILED)
-(br.gov.frameworkdemoiselle.behave.exception.BehaveException: Erro ao tentar navegar para [http://dbehave.com])
-13:35:19,534 INFO  (pool-1-thread-1) [ScreenShootingMaker]: Screenshot [http://dbehave.com/] salvo em [D:\eduardo.mesquita\Desktop\dbeHave\target\jbehave\view\screenshots\failed-scenario-7d763a68-2496-4f41-97d9-1bd60b1e876b.png] com [113.706] bytes
-Então será exibido "dbehave - projeto mantido pelo SERPRO" (NOT PERFORMED)
-
-Scenario: Lendo dúvidas
-Dado que vou para a tela "Github"
-Então será exibido "Demoiselle Behave"
-Então será exibido "http://dbehave.com"
-Quando clico em "Dúvidas e Questões"
-Então será exibido "New issue"
-
-Scenario: Procurando documentação
-Dado que vou para a tela "Documentação"
-Quando clico em "Roteiro Rápido"
-Então será exibido "um roteiro rápido para criação e configuração de um projeto com uso do framework Demoiselle Behave"
-Quando clico em "Link Principal"
-E clico em "Testes de Regressão"
-Então será exibido "a funcionalidade que permite a comparação de layout entre navegadores diferentes"
-
-
-
-(AfterStories)
-13:35:43,198 INFO  (main) [BeforeAfterSteps]: &gt;&gt;Finalizando Aplicação&lt;&lt;
-
-Generating reports view to 'D:\eduardo.mesquita\Desktop\dbeHave\target\jbehave' using formats '[defaultstoryreport, console, html, stats]' and view properties '{navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, reports=ftl/jbehave-reports.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl, decorated=ftl/jbehave-report-decorated.ftl, maps=ftl/jbehave-maps.ftl}'
-Reports view generated with 2 stories (of which 0 pending) containing 3 scenarios (of which 0 pending)
-Failures in reports view: 1 scenarios failed
-13:35:43,572 INFO  (main) [JBehaveParser]: Finalizando Parser JBehave...
-13:35:43,572 INFO  (main) [BehaveContext]: --------------------------------
-13:35:43,572 INFO  (main) [BehaveContext]: Demoiselle Behave Finalizado
-13:35:43,572 INFO  (main) [BehaveContext]: --------------------------------
-</system-out>
-    <system-err>log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-</system-err>
-  </testcase>
+  <testcase name="testAllStories" classname="dbHave.Angular.MyTest" time="16.139"/>
 </testsuite>

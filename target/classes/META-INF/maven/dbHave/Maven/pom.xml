@@ -36,6 +36,11 @@
 			<artifactId>demoiselle-behave-runner-webdriver</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-library</artifactId>
+      <version>1.2.1</version>
+    </dependency>
 	</dependencies>
 	<repositories>
 		<repository>
